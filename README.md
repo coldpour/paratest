@@ -8,7 +8,7 @@ require `paratest` in your spec file and give it an array of tests to run
 
 ```js
 const paratest = require('paratest');
-const compute = require('../src/compute);
+const compute = require('../src/compute');
 
 const tests = [
   {
