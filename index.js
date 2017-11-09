@@ -1,1 +1,1 @@
-module.exports = require('src/paratest');
+module.exports = require('./src/paratest');
