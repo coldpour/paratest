@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "jasmine": "jasmine",
-    "test": "jasmine"
+    "jest": "jest",
+    "test": "jasmine && jest"
   },
   "repository": {
     "type": "git",
@@ -13,6 +14,8 @@
   },
   "keywords": [
     "js",
+    "jasmine",
+    "jest",
     "test",
     "testing",
     "parameterized",
@@ -25,6 +28,7 @@
   },
   "homepage": "https://github.com/coldpour/paratest#readme",
   "devDependencies": {
-    "jasmine": "^2.8.0"
+    "jasmine": "^2.8.0",
+    "jest": "^21.2.1"
   }
 }

@@ -1,9 +1,11 @@
 # paratest
+
 parameterize your javascript tests
 
 what if you never had to write a describe block again? what would you do with all the extra time saved?
 
 ## usage
+
 require `paratest` in your spec file and give it an array of tests to run
 
 ```js
@@ -42,3 +44,7 @@ const tests = [
 
 paratest("compute", tests);
 ```
+
+## compatibility
+
+tested with jasmine and jest
