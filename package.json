@@ -1,6 +1,6 @@
 {
   "name": "paratest",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "parameterize your js tests",
   "main": "index.js",
   "scripts": {
