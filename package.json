@@ -1,0 +1,30 @@
+{
+  "name": "paratest",
+  "version": "0.0.1",
+  "description": "parameterize your js tests",
+  "main": "index.js",
+  "scripts": {
+    "jasmine": "jasmine",
+    "test": "jasmine"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/coldpour/paratest.git"
+  },
+  "keywords": [
+    "js",
+    "test",
+    "testing",
+    "parameterized",
+    "paratest"
+  ],
+  "author": "coldpour",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/coldpour/paratest/issues"
+  },
+  "homepage": "https://github.com/coldpour/paratest#readme",
+  "devDependencies": {
+    "jasmine": "^2.8.0"
+  }
+}
