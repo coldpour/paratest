@@ -1,12 +1,8 @@
-const paratest = require('../src/paratest');
+const funcs = require('./funcs');
 
-function add(x, y) {
-  return x+y;
-}
-
-const tests = [
+module.exports = [
   {
-    subject: add,
+    subject: funcs.add,
     cases: [
       {
         name: "works",
@@ -20,5 +16,3 @@ const tests = [
     ]
   }
 ];
-
-paratest("paratest", tests);
