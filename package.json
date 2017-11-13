@@ -14,9 +14,11 @@
     "url": "git+https://github.com/coldpour/paratest.git"
   },
   "keywords": [
+    "chai",
     "jasmine",
     "jest",
     "js",
+    "mocha",
     "parameterized",
     "paratest",
     "test",

@@ -47,4 +47,16 @@ paratest("compute", tests);
 
 ## compatibility
 
-tested with jasmine and jest
+jasmine and jest work out of the box. to use mocha w/ chai, simply pass in a function as the third argument to paratest that does the assertion of your choice.
+
+```js
+const expect = require('chai').expect;
+
+...
+
+paratest(
+  "compute",
+  tests,
+  (expected, actual) => expect(actual).to.deep.equal(expected)
+);
+```
